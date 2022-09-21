@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
 
-import '../../constants.dart';
+import '../constants.dart';
 
 class CustomHeading extends StatelessWidget {
-  const CustomHeading({Key? key}) : super(key: key);
+  const CustomHeading({Key? key, required this.heading}) : super(key: key);
+  final String heading;
 
   @override
   Widget build(BuildContext context) {
@@ -22,11 +23,11 @@ class CustomHeading extends StatelessWidget {
         ),
 
         /// Title
-        const Padding(
+        Padding(
           padding: const EdgeInsets.all(24.0),
           child: Text(
-            'Sort & Filter',
-            style: TextStyle(
+            heading,
+            style: const TextStyle(
               fontSize: 24.0,
               fontWeight: FontWeight.bold,
               color: kAppThemeRed,

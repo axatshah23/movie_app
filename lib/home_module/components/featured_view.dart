@@ -68,8 +68,9 @@ class _FeaturedViewState extends State<FeaturedView> {
                   image: widget.content.elementAt(index)['poster']!,
                   rating: widget.content.elementAt(index)['rating']!,
                   height: 200,
-                  width: 150,
+                  width: 140,
                   borderRadius: 8.0,
+                  title: widget.content.elementAt(index)['title']!,
                 );
               },
             ),

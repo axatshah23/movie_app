@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:movie_app/constants.dart';
 
 class CustomButtons extends StatefulWidget {
   const CustomButtons(
@@ -40,16 +41,21 @@ class _CustomButtonsState extends State<CustomButtons> {
           ),
         ),
         child: Row(
+          mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Icon(
               widget.icon,
-              color: Colors.white,
+              color: widget.backgroundColor != Colors.white
+                  ? Colors.white
+                  : kAppThemeRed,
             ),
             const SizedBox(width: 8.0),
             Text(
               widget.label,
-              style: const TextStyle(
-                color: Colors.white,
+              style: TextStyle(
+                color: widget.backgroundColor != Colors.white
+                    ? Colors.white
+                    : kAppThemeRed,
                 fontWeight: FontWeight.bold,
               ),
             )

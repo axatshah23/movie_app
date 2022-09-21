@@ -3,8 +3,8 @@ import 'package:movie_app/widgets/custom_bottom_navbar.dart';
 
 import '../../constants.dart';
 import '../../database.dart';
-import 'bottom_modal_sheet_buttons.dart';
-import 'bottom_modal_sheet_heading.dart';
+import '../../widgets/bottom_modal_sheet_buttons.dart';
+import '../../widgets/bottom_modal_sheet_heading.dart';
 import 'filter_bars.dart';
 
 class MyBottomSheet extends StatefulWidget {
@@ -42,7 +42,9 @@ class _MyBottomSheetState extends State<MyBottomSheet> {
               shrinkWrap: true,
               children: [
                 /// Heading
-                CustomHeading(),
+                const CustomHeading(
+                  heading: 'Sort & Filter',
+                ),
 
                 /// Filter Bars
                 /// Category

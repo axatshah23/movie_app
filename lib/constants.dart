@@ -5,8 +5,21 @@ import 'package:google_fonts/google_fonts.dart';
 const kScaffoldBackgroundColor = Colors.white;
 TextTheme kAppFont = GoogleFonts.urbanistTextTheme();
 const kAppThemeRed = Color(0xFFE21221);
-const kAppThemeRedLight = Color(0xFFFCE7E9);
+const kAppThemeRedLight = Color(0x32E21221);
 // Theme Colors end here
+
+/// Widgets
+const kDetailsScreenTitleTextStyle = TextStyle(
+  fontSize: 21.0,
+  fontWeight: FontWeight.bold,
+  color: Colors.black,
+);
+const kRatingPopUpNumericRatingTextStyle = TextStyle(
+  fontSize: 48.0,
+  fontWeight: FontWeight.bold,
+  color: Colors.black,
+);
+// End of Widgets
 
 /// NavBar
 const kNavBarElevation = 0.0;

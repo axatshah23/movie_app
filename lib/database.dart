@@ -5,7 +5,7 @@ var movies = [
     'title': 'Dr. Strange in the Multiverse of Madness',
     'genre': 'Action, Adventure, Superhero, Fantasy, Horror, Sci-Fi',
     'rating': '7.0',
-    'release date': '06/05/2022',
+    'release': '2022',
     'runtime': '2h 06m',
   },
   {
@@ -14,7 +14,7 @@ var movies = [
     'title': 'Avatar',
     'genre': 'Action, Adventure, Fantasy, Sci-Fi, Mystery',
     'rating': '7.8',
-    'release date': '18/12/2009',
+    'release': '2009',
     'runtime': '2h 41m',
   },
   {
@@ -23,7 +23,7 @@ var movies = [
     'title': 'Top Gun: Maverick',
     'genre': 'Action, Adventure, Drama',
     'rating': '8.5',
-    'release date': '27/05/2022',
+    'release': '2022',
     'runtime': '2h 11m',
   },
   {
@@ -32,7 +32,7 @@ var movies = [
     'title': 'Star Wars: A New Hope (Episode IV)',
     'genre': 'Sci-Fi, Action, Fantasy, Adventure, Space Opera',
     'rating': '8.6',
-    'release date': '01/07/1978',
+    'release': '1978',
     'runtime': '2h 1m',
   },
   {
@@ -41,7 +41,7 @@ var movies = [
     'title': 'Spider-Man: No Way Home',
     'genre': 'Action, Superhero, Comedy, Sci-Fi, Fantasy, Adventure',
     'rating': '8.3',
-    'release date': '16/12/2021',
+    'release': '2021',
     'runtime': '2h 28m',
   },
   {
@@ -50,7 +50,7 @@ var movies = [
     'title': 'Jurassic World Dominion',
     'genre': 'Action, Sci-Fi, Adventure, Fantasy, Monster',
     'rating': '5.7',
-    'release date': '10/06/2022',
+    'release': '2022',
     'runtime': '2h 27m',
   },
   {
@@ -59,7 +59,7 @@ var movies = [
     'title': 'Inception',
     'genre': 'Action, Sci-Fi, Thriller, Adventure, Heist, Drama',
     'rating': '8.8',
-    'release date': '16/07/2010',
+    'release': '2010',
     'runtime': '2h 28m',
   },
   {
@@ -68,7 +68,7 @@ var movies = [
     'title': 'Harry Potter and the Philosopher\'s Stone',
     'genre': 'Adventure, Fantasy, Narrative',
     'rating': '7.6',
-    'release date': '12/05/2002',
+    'release': '2002',
     'runtime': '2h 32m',
   },
 ];
@@ -81,6 +81,7 @@ var shows = [
     'genre':
         'Serial, Action, Drama, Thriller, Suspense, Adventure, Tragedy, Medieval Fantasy',
     'rating': '9.2',
+    'release': '2008'
   },
   {
     'poster':
@@ -88,6 +89,7 @@ var shows = [
     'title': 'Lost in Space',
     'genre': 'Adventure, Drama, Family',
     'rating': '7.3',
+    'release': '2016'
   },
   {
     'poster':
@@ -95,6 +97,7 @@ var shows = [
     'title': 'Moeny Heist',
     'genre': 'Heist, Drama, Thriller, Crime Film',
     'rating': '8.2',
+    'release': '2016'
   },
   {
     'poster':
@@ -102,6 +105,7 @@ var shows = [
     'title': 'Sherlock',
     'genre': 'Mystery, Drama, Thriller, Comedy',
     'rating': '9.1',
+    'release': '2013'
   },
   {
     'poster':
@@ -109,6 +113,7 @@ var shows = [
     'title': 'Stranger Things',
     'genre': 'Horror, Drama, Thriller, Supernatural',
     'rating': '8.3',
+    'release': '2017'
   },
   {
     'poster':
@@ -116,6 +121,7 @@ var shows = [
     'title': 'Loki',
     'genre': 'Superhero Fiction, Procedural Drama, Fantasy Television',
     'rating': '8.2',
+    'release': '2021'
   },
   {
     'poster':
@@ -123,6 +129,7 @@ var shows = [
     'title': 'The Mandalorian',
     'genre': 'Space Western, Adventure Fiction',
     'rating': '8.7',
+    'release': '2019'
   },
   {
     'poster':
@@ -130,6 +137,7 @@ var shows = [
     'title': 'The Lord of the Rings: The Rings of Power',
     'genre': 'Drama, Fantasy Television, Action Fiction, Adventure',
     'rating': '6.8',
+    'release': '2022'
   },
 ];
 
@@ -261,3 +269,12 @@ List<String> selectedListFinal = [];
 List<String> selectedListCurrent = [];
 // The searched term to pass to next screen
 String searchedTerm = "";
+
+var cast = [
+  {
+    'name': 'Stan Lee',
+    'profile':
+        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGJYDIo32NbMSjZKy4bnuXtlgi0b8MGSjo_w&usqp=CAU',
+    'role': 'Legend'
+  }
+];

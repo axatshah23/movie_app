@@ -65,6 +65,7 @@ class _ExpandedViewScreenState extends State<ExpandedViewScreen> {
               height: 250,
               width: 150,
               borderRadius: 16.0,
+              title: widget.content.elementAt(index)['title']!,
             );
           },
         ),
