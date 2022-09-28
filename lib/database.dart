@@ -7,7 +7,8 @@ var movies = [
     'rating': '7.0',
     'release': '2022',
     'runtime': '2h 06m',
-    'type': 'movie'
+    'type': 'movie',
+    'size': '1.4 GB',
   },
   {
     'poster':
@@ -17,7 +18,8 @@ var movies = [
     'rating': '7.8',
     'release': '2009',
     'runtime': '2h 41m',
-    'type': 'movie'
+    'type': 'movie',
+    'size': '1.4 GB',
   },
   {
     'poster':
@@ -27,7 +29,8 @@ var movies = [
     'rating': '8.5',
     'release': '2022',
     'runtime': '2h 11m',
-    'type': 'movie'
+    'type': 'movie',
+    'size': '1.4 GB',
   },
   {
     'poster':
@@ -37,7 +40,8 @@ var movies = [
     'rating': '8.6',
     'release': '1978',
     'runtime': '2h 1m',
-    'type': 'movie'
+    'type': 'movie',
+    'size': '1.4 GB',
   },
   {
     'poster':
@@ -47,7 +51,8 @@ var movies = [
     'rating': '8.3',
     'release': '2021',
     'runtime': '2h 28m',
-    'type': 'movie'
+    'type': 'movie',
+    'size': '1.4 GB',
   },
   {
     'poster':
@@ -57,7 +62,8 @@ var movies = [
     'rating': '5.7',
     'release': '2022',
     'runtime': '2h 27m',
-    'type': 'movie'
+    'type': 'movie',
+    'size': '1.4 GB',
   },
   {
     'poster':
@@ -67,7 +73,8 @@ var movies = [
     'rating': '8.8',
     'release': '2010',
     'runtime': '2h 28m',
-    'type': 'movie'
+    'type': 'movie',
+    'size': '1.4 GB',
   },
   {
     'poster':
@@ -77,7 +84,8 @@ var movies = [
     'rating': '7.6',
     'release': '2002',
     'runtime': '2h 32m',
-    'type': 'movie'
+    'type': 'movie',
+    'size': '1.4 GB',
   },
 ];
 

@@ -6,7 +6,13 @@ const kScaffoldBackgroundColor = Colors.white;
 TextTheme kAppFont = GoogleFonts.urbanistTextTheme();
 const kAppThemeRed = Color(0xFFE21221);
 const kAppThemeRedLight = Color(0x32E21221);
+const kPrimaryColor = Color(0xffE21221);
+const kPrimaryColorLight = Color(0xffffabb1);
 // Theme Colors end here
+
+///Profile Page
+const kProfilePageListTextStyle =
+    TextStyle(fontWeight: FontWeight.w600, fontSize: 16);
 
 /// Widgets
 const kDetailsScreenTitleTextStyle = TextStyle(

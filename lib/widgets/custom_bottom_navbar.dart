@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_iconly/flutter_iconly.dart';
-import 'package:movie_app/downloads_module/downloads_screen.dart';
 import 'package:movie_app/explore_module/explore_screen_initial.dart';
 import 'package:movie_app/home_module/home_screen.dart';
 import 'package:movie_app/my_list_module/my_list_screen.dart';
-import 'package:movie_app/profile_module/profile_screen.dart';
 
+import '../Download_module/Downloads.dart';
 import '../constants.dart';
+import '../profile_module/profilePage.dart';
 
 class CustomBottomNavBar extends StatefulWidget {
   CustomBottomNavBar({Key? key, required this.currIndex}) : super(key: key);
@@ -47,7 +47,7 @@ class _CustomBottomNavBarState extends State<CustomBottomNavBar> {
     const Explore(),
     const MyList(),
     const Downloads(),
-    const Profile(),
+    const profilePage(),
   ];
   @override
   Widget build(BuildContext context) {

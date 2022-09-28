@@ -1,10 +1,18 @@
 import 'package:flutter/material.dart';
+import 'package:movie_app/provider/premimum_provider.dart';
+import 'package:movie_app/provider/theme_provider.dart';
+import 'package:provider/provider.dart';
 
-import 'constants.dart';
 import 'widgets/custom_bottom_navbar.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(MultiProvider(
+    providers: [
+      ChangeNotifierProvider(create: (_) => ThemeProvider()),
+      ChangeNotifierProvider(create: (_) => PremimumProvider()),
+    ],
+    child: MyApp(),
+  ));
 }
 
 class MyApp extends StatefulWidget {
@@ -19,10 +27,9 @@ class _MyAppState extends State<MyApp> {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      theme: ThemeData(
-        scaffoldBackgroundColor: kScaffoldBackgroundColor,
-        textTheme: kAppFont,
-      ),
+      themeMode: context.watch<ThemeProvider>().themeMode,
+      theme: MyThemes.lightTheme,
+      darkTheme: MyThemes.darkTheme,
       home: CustomBottomNavBar(
         currIndex: 0,
       ),
