@@ -7,6 +7,7 @@ var movies = [
     'rating': '7.0',
     'release': '2022',
     'runtime': '2h 06m',
+    'type': 'movie'
   },
   {
     'poster':
@@ -16,6 +17,7 @@ var movies = [
     'rating': '7.8',
     'release': '2009',
     'runtime': '2h 41m',
+    'type': 'movie'
   },
   {
     'poster':
@@ -25,6 +27,7 @@ var movies = [
     'rating': '8.5',
     'release': '2022',
     'runtime': '2h 11m',
+    'type': 'movie'
   },
   {
     'poster':
@@ -34,6 +37,7 @@ var movies = [
     'rating': '8.6',
     'release': '1978',
     'runtime': '2h 1m',
+    'type': 'movie'
   },
   {
     'poster':
@@ -43,6 +47,7 @@ var movies = [
     'rating': '8.3',
     'release': '2021',
     'runtime': '2h 28m',
+    'type': 'movie'
   },
   {
     'poster':
@@ -52,6 +57,7 @@ var movies = [
     'rating': '5.7',
     'release': '2022',
     'runtime': '2h 27m',
+    'type': 'movie'
   },
   {
     'poster':
@@ -61,6 +67,7 @@ var movies = [
     'rating': '8.8',
     'release': '2010',
     'runtime': '2h 28m',
+    'type': 'movie'
   },
   {
     'poster':
@@ -70,6 +77,7 @@ var movies = [
     'rating': '7.6',
     'release': '2002',
     'runtime': '2h 32m',
+    'type': 'movie'
   },
 ];
 
@@ -81,7 +89,9 @@ var shows = [
     'genre':
         'Serial, Action, Drama, Thriller, Suspense, Adventure, Tragedy, Medieval Fantasy',
     'rating': '9.2',
-    'release': '2008'
+    'release': '2008',
+    'type': 'show',
+    'numberOfSeasons': '8',
   },
   {
     'poster':
@@ -89,7 +99,9 @@ var shows = [
     'title': 'Lost in Space',
     'genre': 'Adventure, Drama, Family',
     'rating': '7.3',
-    'release': '2016'
+    'release': '2016',
+    'type': 'show',
+    'numberOfSeasons': '3',
   },
   {
     'poster':
@@ -97,7 +109,9 @@ var shows = [
     'title': 'Moeny Heist',
     'genre': 'Heist, Drama, Thriller, Crime Film',
     'rating': '8.2',
-    'release': '2016'
+    'release': '2016',
+    'type': 'show',
+    'numberOfSeasons': '5',
   },
   {
     'poster':
@@ -105,7 +119,9 @@ var shows = [
     'title': 'Sherlock',
     'genre': 'Mystery, Drama, Thriller, Comedy',
     'rating': '9.1',
-    'release': '2013'
+    'release': '2013',
+    'type': 'show',
+    'numberOfSeasons': '4',
   },
   {
     'poster':
@@ -113,7 +129,9 @@ var shows = [
     'title': 'Stranger Things',
     'genre': 'Horror, Drama, Thriller, Supernatural',
     'rating': '8.3',
-    'release': '2017'
+    'release': '2017',
+    'type': 'show',
+    'numberOfSeasons': '4',
   },
   {
     'poster':
@@ -121,7 +139,9 @@ var shows = [
     'title': 'Loki',
     'genre': 'Superhero Fiction, Procedural Drama, Fantasy Television',
     'rating': '8.2',
-    'release': '2021'
+    'release': '2021',
+    'type': 'show',
+    'numberOfSeasons': '1',
   },
   {
     'poster':
@@ -129,7 +149,9 @@ var shows = [
     'title': 'The Mandalorian',
     'genre': 'Space Western, Adventure Fiction',
     'rating': '8.7',
-    'release': '2019'
+    'release': '2019',
+    'type': 'show',
+    'numberOfSeasons': '2',
   },
   {
     'poster':
@@ -137,7 +159,95 @@ var shows = [
     'title': 'The Lord of the Rings: The Rings of Power',
     'genre': 'Drama, Fantasy Television, Action Fiction, Adventure',
     'rating': '6.8',
-    'release': '2022'
+    'release': '2022',
+    'type': 'show',
+    'numberOfSeasons': '1',
+  },
+];
+
+// var myList = [];
+
+var myList = [
+  {
+    'poster':
+        'https://pbs.twimg.com/media/FZpsF6sWAAEZkQA?format=jpg&name=900x900',
+    'title': 'The Lord of the Rings: The Rings of Power',
+    'genre': 'Drama, Fantasy Television, Action Fiction, Adventure',
+    'rating': '6.8',
+    'release': '2022',
+    'type': 'show',
+    'numberOfSeasons': '1',
+  },
+  {
+    'poster':
+        'https://m.media-amazon.com/images/M/MV5BMDRjYWI5NTMtZTYzZC00NTg4LWI3NjMtNmI3MTdhMWQ5MGJlXkEyXkFqcGdeQXVyNTg4MDc4Mg@@._V1_.jpg',
+    'title': 'Stranger Things',
+    'genre': 'Horror, Drama, Thriller, Supernatural',
+    'rating': '8.3',
+    'release': '2017',
+    'type': 'show',
+    'numberOfSeasons': '4',
+  },
+  {
+    'poster':
+        'https://m.media-amazon.com/images/M/MV5BOWQwOTA1ZDQtNzk3Yi00ZmVmLWFiZGYtNjdjNThiYjJhNzRjXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_FMjpg_UX1000_.jpg',
+    'title': 'Top Gun: Maverick',
+    'genre': 'Action, Adventure, Drama',
+    'rating': '8.5',
+    'release': '2022',
+    'runtime': '2h 11m',
+    'type': 'movie'
+  },
+  {
+    'poster':
+        'https://starwarsblog.starwars.com/wp-content/uploads/2017/05/1-star-wars-poster.jpg',
+    'title': 'Star Wars: A New Hope (Episode IV)',
+    'genre': 'Sci-Fi, Action, Fantasy, Adventure, Space Opera',
+    'rating': '8.6',
+    'release': '1978',
+    'runtime': '2h 1m',
+    'type': 'movie'
+  },
+  {
+    'poster':
+        'https://m.media-amazon.com/images/M/MV5BNWM0ZGJlMzMtZmYwMi00NzI3LTgzMzMtNjMzNjliNDRmZmFlXkEyXkFqcGdeQXVyMTM1MTE1NDMx._V1_FMjpg_UX1000_.jpg',
+    'title': 'Dr. Strange in the Multiverse of Madness',
+    'genre': 'Action, Adventure, Superhero, Fantasy, Horror, Sci-Fi',
+    'rating': '7.0',
+    'release': '2022',
+    'runtime': '2h 06m',
+    'type': 'movie'
+  },
+  {
+    'poster':
+        'https://m.media-amazon.com/images/M/MV5BMTYwOTEwNjAzMl5BMl5BanBnXkFtZTcwODc5MTUwMw@@._V1_FMjpg_UX1000_.jpg',
+    'title': 'Avatar',
+    'genre': 'Action, Adventure, Fantasy, Sci-Fi, Mystery',
+    'rating': '7.8',
+    'release': '2009',
+    'runtime': '2h 41m',
+    'type': 'movie'
+  },
+  {
+    'poster':
+        'https://m.media-amazon.com/images/M/MV5BYTRiNDQwYzAtMzVlZS00NTI5LWJjYjUtMzkwNTUzMWMxZTllXkEyXkFqcGdeQXVyNDIzMzcwNjc@._V1_FMjpg_UX1000_.jpg',
+    'title': 'Game of Thrones',
+    'genre':
+        'Serial, Action, Drama, Thriller, Suspense, Adventure, Tragedy, Medieval Fantasy',
+    'rating': '9.2',
+    'release': '2008',
+    'type': 'show',
+    'numberOfSeasons': '8',
+  },
+  {
+    'poster':
+        'https://m.media-amazon.com/images/M/MV5BZTY5YjQwYmEtOWJiNy00NDBmLTgxM2YtMmVkMmI0NzE1N2FjXkEyXkFqcGdeQXVyMjg1NDcxNDE@._V1_.jpg',
+    'title': 'Lost in Space',
+    'genre': 'Adventure, Drama, Family',
+    'rating': '7.3',
+    'release': '2016',
+    'type': 'show',
+    'numberOfSeasons': '3',
   },
 ];
 
@@ -212,12 +322,13 @@ var notifications = [
 ];
 
 List<String> category = [
+  'All',
   'Movies',
   'TV Shows',
   'Anime',
   'K-Drama',
   'Sitcom',
-  'Reality Show'
+  'Reality Show',
 ];
 
 List<String> genre = [

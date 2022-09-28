@@ -2,11 +2,11 @@ import 'package:flutter/material.dart';
 import 'package:flutter_iconly/flutter_iconly.dart';
 import 'package:flutter_rating_bar/flutter_rating_bar.dart';
 import 'package:movie_app/constants.dart';
-import 'package:movie_app/widgets/custom_percentage_indicator.dart';
 
-import '../database.dart';
-import 'bottom_modal_sheet_buttons.dart';
-import 'bottom_modal_sheet_heading.dart';
+import '../../../database.dart';
+import '../../bottom_modal_sheet_buttons.dart';
+import '../../bottom_modal_sheet_heading.dart';
+import 'custom_percentage_indicator.dart';
 
 class RatingBottomSheet extends StatefulWidget {
   const RatingBottomSheet({Key? key, required this.title}) : super(key: key);

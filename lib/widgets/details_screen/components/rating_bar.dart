@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_iconly/flutter_iconly.dart';
 import 'package:flutter_rating_bar/flutter_rating_bar.dart';
 
-import '../constants.dart';
+import '../../../constants.dart';
 
 class RatingIndicator extends StatefulWidget {
   const RatingIndicator({Key? key, required this.rating, required this.onTap})

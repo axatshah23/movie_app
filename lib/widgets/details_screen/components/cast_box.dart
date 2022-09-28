@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../database.dart';
+import '../../../database.dart';
 
 class CastBox extends StatefulWidget {
   const CastBox({Key? key}) : super(key: key);

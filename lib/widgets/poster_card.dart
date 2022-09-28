@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 import '../constants.dart';
-import 'details_screen.dart';
+import 'details_screen/details_screen.dart';
 
 class PosterCard extends StatefulWidget {
   const PosterCard(

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../constants.dart';
+import '../../../constants.dart';
 
 class BorderedContainer extends StatefulWidget {
   const BorderedContainer({Key? key, required this.content}) : super(key: key);
