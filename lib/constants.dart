@@ -9,6 +9,33 @@ const kAppThemeRedLight = Color(0x32E21221);
 const kPrimaryColor = Color(0xffE21221);
 const kPrimaryColorLight = Color(0xffffabb1);
 // Theme Colors end here
+const kLightPrimaryColor = Color(0xfffad5d7);
+
+/// Let's You In Screen
+const kLetsYouInHeadingTextStyle = TextStyle(
+  fontSize: 36.0,
+  fontWeight: FontWeight.bold,
+);
+
+/// SignUp Screen
+const kSignUpHeadingTextStyle = TextStyle(
+  fontSize: 32.0,
+  fontWeight: FontWeight.bold,
+);
+
+/// Welcome Screen
+const kWelcomeHeadingTextStyle = TextStyle(
+  fontWeight: FontWeight.w800,
+  fontSize: 34.0,
+  color: Colors.white,
+);
+
+const kWelcomeNormalTextStyle = TextStyle(
+  fontWeight: FontWeight.w300,
+  fontSize: 18.0,
+  color: Colors.white,
+  letterSpacing: 1.0,
+);
 
 ///Profile Page
 const kProfilePageListTextStyle =
