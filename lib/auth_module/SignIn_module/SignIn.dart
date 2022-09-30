@@ -165,6 +165,7 @@ class _SignInState extends State<SignIn> {
               SizedBox(
                 height: height * 0.01,
               ),
+
               Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
@@ -216,8 +217,25 @@ class _SignInState extends State<SignIn> {
               ),
 
               SizedBox(
-                height: height * 0.04,
+                height: height * 0.01,
               ),
+
+              TextButton(
+                onPressed: (){
+                  Navigator.pushNamed(context, '/ForgotPassword');
+                },
+                child: Text(
+                  'Forgot Password?',
+                  style: TextStyle(
+                    color: kPrimaryColor,
+                  ),
+                ),
+              ),
+
+              SizedBox(
+                height: height * 0.01,
+              ),
+
               Row(
                 children: [
                   Expanded(

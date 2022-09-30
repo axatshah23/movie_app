@@ -3,7 +3,6 @@ import 'package:movie_app/provider/premimum_provider.dart';
 import 'package:movie_app/provider/theme_provider.dart';
 import 'package:movie_app/widgets/custom_bottom_navbar.dart';
 import 'package:provider/provider.dart';
-
 import 'Account_setup_module/Create_Pin.dart';
 import 'Account_setup_module/Interest_selection.dart';
 import 'Account_setup_module/fingerprint.dart';

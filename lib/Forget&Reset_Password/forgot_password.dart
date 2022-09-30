@@ -19,7 +19,7 @@ class ForgotPassword extends StatelessWidget {
         elevation: 0.0,
         leading: IconButton(
           onPressed: () {
-            Navigator.popAndPushNamed(context, '/');
+            Navigator.pop(context);
           },
           icon: const Icon(
             Icons.arrow_back,

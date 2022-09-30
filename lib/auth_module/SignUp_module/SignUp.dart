@@ -85,7 +85,7 @@ class _SignUpState extends State<SignUp> {
               Padding(
                 padding: const EdgeInsets.fromLTRB(24.0, 8.0, 24.0, 0),
                 child: TextFormField(
-                  autovalidateMode: AutovalidateMode.always,
+                  autovalidateMode: AutovalidateMode.onUserInteraction,
                   focusNode: focusNode1,
                   decoration: InputDecoration(
                     focusedBorder: OutlineInputBorder(
@@ -113,7 +113,7 @@ class _SignUpState extends State<SignUp> {
               Padding(
                 padding: const EdgeInsets.fromLTRB(24.0, 8.0, 24.0, 0),
                 child: TextFormField(
-                  autovalidateMode: AutovalidateMode.always,
+                  autovalidateMode: AutovalidateMode.onUserInteraction,
                   focusNode: focusNode2,
                   obscureText: !_passwordVisible,
                   decoration: InputDecoration(
